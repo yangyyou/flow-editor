@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "description": "A flow editor use vue3 + antd x6",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm -C play dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.15.1",
+  "dependencies": {
+    "@flow-editor/components": "workspace:^",
+    "@flow-editor/utils": "workspace:*",
+    "vue": "^3.5.24"
+  },
+  "devDependencies": {
+    "@eslint/css": "^0.14.1",
+    "@eslint/js": "^9.39.1",
+    "@eslint/json": "^0.14.0",
+    "@vue/eslint-config-prettier": "^10.2.0",
+    "@vue/eslint-config-typescript": "^14.6.0",
+    "eslint": "^9.39.1",
+    "eslint-plugin-vue": "^10.5.1",
+    "globals": "^16.5.0",
+    "jiti": "^2.6.1",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.4",
+    "unplugin-vue-define-options": "^3.1.1",
+    "vue-eslint-parser": "^10.2.0"
+  }
+}

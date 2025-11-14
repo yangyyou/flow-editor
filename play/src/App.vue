@@ -1,4 +1,3 @@
-
 <template>
   <div>
     <y-icon :color="'red'"></y-icon>

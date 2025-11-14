@@ -1,8 +1,8 @@
-import { ExtractPropTypes, PropType } from "vue";
+import { ExtractPropTypes, PropType } from 'vue';
 
 export const iconProps = {
   color: String,
-  size: [Number, String] as PropType<number|string>
+  size: [Number, String] as PropType<number | string>,
 } as const;
 
-export type IconProp = ExtractPropTypes<typeof iconProps>
+export type IconProp = ExtractPropTypes<typeof iconProps>;
